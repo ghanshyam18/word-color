@@ -5,7 +5,6 @@ function Grid(props) {
 
   return (
     <div
-      className="color-box"
       style={{ backgroundColor: color.hex, height: Math.floor(Math.random() * (250 - 100) + 100) }}
     >
       <span className="name">{color.name}</span>
